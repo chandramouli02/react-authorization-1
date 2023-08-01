@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.header-logo-img {
+  height: 50px;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 40%;
+  list-style: none;
+}
+.header-nav-item {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.header-nav-btn {
+  text-decoration: none;
+  border: 0px solid;
+  border-radius: 5px;
+  color: white;
+  background-color: blue;
+  font-size: 15px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
